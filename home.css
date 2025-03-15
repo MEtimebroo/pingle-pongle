@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Pixel Emulator', 'Press Start 2p', monospace;
+    background-color: black;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+#center {
+    background-color: darkgray;
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    left: 50%;
+}
+
+#paddle-left {
+    background-color: darkgray;
+    height: 100px;
+    width: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 40%;
+}
+
+#paddle-right {
+    background-color: darkgray;
+    height: 100px;
+    width: 10px;
+    right: 0;
+    margin-right: 20px;
+    position: absolute;
+    top: 40%;
+}
+
+#ball {
+    background-color: darkgray;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 49.9%;
+    top: 40%;
+}
+
+#score-l, #score-r {
+    position: absolute;
+    top: 0;
+}
+
+#score-l {
+    left: 45%;
+}
+
+#score-r {
+    left: 55%;
+}
+
+#play {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    font-family: 'Pixel Emulator', 'Press Start 2p', monospace;
+    left: 45%;
+    top: 40%;
+}
+
+#play:hover {
+    background-color: darkgray;
+}
+
+#title {
+    font-size: xx-large;
+    position: absolute;
+    left: 39.5%;
+    top: 20%;
+}
+
+.score, .score1 {
+    color: darkgray;
+}
